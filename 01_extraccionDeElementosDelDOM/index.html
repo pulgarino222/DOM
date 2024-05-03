@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content />
+    <meta name="keywords"
+      content="DOM,JS,CSS">
+    <meta name="sitedomain" content="https://example.com/" />
+    <meta name="organization" content="Riwi_Dell" />
+    <meta name="author" content="Juan felipe pulgarin" />
+    <meta name="designer" content="Juan felipe pulgarin " />
+    <meta name="copyright"
+      content="© 2024 Veterinaria. Todos los derechos reservados">
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="15days" />
+    <link rel="shortcut icon" href="./public/icons/favicon.ico"
+      type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./src/css/normalize.css"> -->
+    <!-- styles from boobstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <!-- personal styles -->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <title>DOM pt1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Extraction elements</h1>
+    </header>
+    <main>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal
+                title</h1>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save
+                changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <!-- /////boton importado de bootstrap/// -->
+        <br><br><br><button type="button" id="btn-one" class="btn btn-primary">one</button>
+        <button type="button" class="btn btn-danger btn-two">two</button>
+        <button type="button" class="btn btn-primary" name="btn-three">three</button>
+        <button type="button" class="btn btn-danger">four</button><br><br><br><br>
+      </section>
+      <section>
+        <button type="button" class="btn btn-outline-success" id="btn-five">Success</button>
+        <button type="button" class="btn btn-outline-info btn-six" >Success</button>
+        <button type="button" class="btn btn-outline-warning" name="btn-seven">Success</button>
+        <button type="button" class="btn btn-outline-success">Success</button><br><br><br><br>
+      </section>
+      <section>
+        <button type="button" id="btn-example" class="btn btn-danger">example</button>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
