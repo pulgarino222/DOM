@@ -8,26 +8,18 @@
     font-style: normal;
 }
 
-main{
-    background-color: rgb(77, 209, 209);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+
+
+img{
+    width: 700px;
+    height: 700px;
 }
 
-main section{
-    
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
-   margin-top: 90px;
+
+
+
+.card:hover{
+    transform: rotate(20);
+    transition: 3s;
 }
 
-main section article{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
